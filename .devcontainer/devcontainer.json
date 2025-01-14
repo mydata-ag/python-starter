@@ -1,0 +1,20 @@
+{
+    "name": "Python Starter Dev Container",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-vscode.makefile-tools",
+                "ms-python.debugpy",
+                "github.copilot",
+                "charliermarsh.ruff",
+                "fb-pyre-check.pyre-vscode"
+            ]
+        }
+    },
+    "postCreateCommand": "uv sync"
+}
