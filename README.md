@@ -15,7 +15,7 @@ A blazing-fast Python starter template designed to simplify and accelerate devel
 
 ## Setup
 
-Open the project inside WSL using:
+Open the project inside:
 
 ```bash
 code .
@@ -63,6 +63,12 @@ make test
 ```
 
 ### Pre-Commit Hooks
+
+Install `pre-commit` hooks:
+
+```bash
+make pre-commit-install
+```
 
 Run `pre-commit` hooks to automatically check and format code before committing:
 
